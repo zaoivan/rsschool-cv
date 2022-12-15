@@ -1,1 +1,1 @@
-[zaoivan cv](https://zaoivan.github.io/rsschool-cv/cv "zaoivan cv") 
+https://zaoivan.github.io/rsschool-cv/cv
