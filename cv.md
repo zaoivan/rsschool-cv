@@ -24,7 +24,7 @@ function multiply(a, b){
 ```
 
 ## Experience
-I worked in the specialty - automation in technical systems, for 10 years.
+I worked in the specialty - automation in technical systems, for 10 years
 
 ## Education
 I graduated the Ural Federal University, Faculty of Radio Engineering
