@@ -1,11 +1,13 @@
 ## rsschool-cv
 
 # Zaostrovskikh Ivan
-![avatar](/PHOTO-2022-11-01-19-31-11.jpg "Аватар Заостровских Иван")
+![avatar](assets/PHOTO-2022-11-01-19-31-11.jpg "Аватар Заостровских Иван")
 
 ## Contacts
 * Location: Astana, Kazakhstan
-* Discord: zaoivan (@zaoivan) 
+* e-mail: zaoivan@gmail.com
+* Discord: zaoivan (@zaoivan)
+* Telegram: franklstone
 
 ## About myself
 I worked as an engineer for 10 years. Now I'm wondering how it works in the IT field
