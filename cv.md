@@ -1,7 +1,7 @@
 ## rsschool-cv
 
 # Zaostrovskikh Ivan
-![avatar](/PHOTO-2022-11-01-19-31-11.jpg "Аватар Заостровских Иван")
+![avatar](assets/img/PHOTO-2022-11-01-19-31-11.jpg "Аватар Заостровских Иван")
 
 ## Contacts
 * Location: Astana, Kazakhstan
