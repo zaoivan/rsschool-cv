@@ -1,0 +1,12 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "[https://zaoivan.github.io/rsschool-cv](https://zaoivan.github.io/rsschool-cv \"http-css\")",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

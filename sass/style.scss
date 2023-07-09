@@ -1,35 +1,7 @@
-:root {
-  --text-primary: #D15C3E;
-  --text-secondary: #FFFFFF;
-  --background-primary: #5C3ED1;
-  --background-secondary: #AD9FE8;
-}
+@import "./base/base";
+@import "./abstracts/constants";
 
-* {
-  box-sizing: border-box;
-}
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  /* positioning */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* block model  */
-  min-width: 320px;
-  margin: 0;
-  padding: 0;
-  /* typography */
-  font-family: 'Noto Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
-  /* decoration */
-  color: var(--text-primary);
-}
 
 .container {
     max-width: 1440px;
@@ -38,7 +10,7 @@ body {
 }
 
 .header {
-  background-color: var(--background-primary);
+  background-color: $color-background-primary;
 }
 
 .nav-list {
@@ -51,15 +23,15 @@ body {
 .nav-link {
   padding: 0 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight: 300;
   line-height: 50px;
-  color: var(--text-secondary);
+  color: $color-text-secondary;
   transition: .5s;
 }
 
 .nav-link:hover {
-  color: var(--text-primary);
+  color: $color-text-primary;
 }
 
 .main-container {
@@ -72,7 +44,7 @@ body {
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
-  border-bottom: 1px solid #672f2f;
+  border-bottom: 1px solid $color-border-bottom;
 }
 
 .section-education,
@@ -86,7 +58,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: var(--background-primary);
+  color: $color-background-primary;
 }
 
 .section-profile {
@@ -94,7 +66,7 @@ body {
   justify-content: space-around;
   width: 100%;
   padding: 50px 30px 35px;
-  border-bottom: 15px solid var(--background-secondary);
+  border-bottom: 15px solid $color-background-secondary;
 }
 
 .pre {
@@ -116,7 +88,7 @@ body {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
-  color: var(--text-primary);
+  color: $color-text-primary;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 10px;
@@ -126,7 +98,7 @@ body {
 
 .section-subtitle {
   margin-top: 20px;
-  color: #5c5c5c;
+  color: $color-section-subtitle;
   line-height: 50px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -152,18 +124,18 @@ body {
 
 .section-item a {
   text-decoration: none;
-  color: var(--background-primary);
+  color: $color-background-primary;
   transition: color 0.5s;
 }
 
 .section-item a:hover {
-  color: var(--text-primary);
+  color: $color-text-primary;
 }
 
 footer {
   padding: 20px;
-  background-color: var(--background-primary);
-  color: var(--text-secondary);
+  background-color: $color-background-primary;
+  color: $color-text-secondary;
 }
 
 .footer-container {
