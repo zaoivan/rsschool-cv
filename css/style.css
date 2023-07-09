@@ -1,5 +1,29 @@
-@import "./abstract/constants";
-@import "./base/base";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  /* positioning */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* block model  */
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  /* typography */
+  font-family: "Noto Sans", Verdana, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* decoration */
+  color: #D15C3E;
+}
 
 .container {
   max-width: 1440px;
@@ -8,7 +32,7 @@
 }
 
 .header {
-  background-color: $color-background-primary;
+  background-color: #5C3ED1;
 }
 
 .nav-list {
@@ -21,15 +45,15 @@
 .nav-link {
   padding: 0 12px;
   text-decoration: none;
-  font-size: 2.0rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 50px;
-  color: $color-text-secondary;
-  transition: .5s;
+  color: #FFFFFF;
+  transition: 0.5s;
 }
 
 .nav-link:hover {
-  color: $color-text-primary;
+  color: #D15C3E;
 }
 
 .main-container {
@@ -42,7 +66,7 @@
   width: calc(50% - 20px);
   padding: 10px;
   padding-bottom: 35px;
-  border-bottom: 1px solid $color-border-bottom;
+  border-bottom: 1px solid #672F2F;
 }
 
 .section-education,
@@ -56,7 +80,7 @@
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: $color-background-primary;
+  color: #5C3ED1;
 }
 
 .section-profile {
@@ -64,7 +88,7 @@
   justify-content: space-around;
   width: 100%;
   padding: 50px 30px 35px;
-  border-bottom: 15px solid $color-background-secondary;
+  border-bottom: 15px solid #AD9FE8;
 }
 
 .pre {
@@ -86,7 +110,7 @@
   position: relative;
   padding: 0;
   margin-bottom: 20px;
-  color: $color-text-primary;
+  color: #D15C3E;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 10px;
@@ -96,7 +120,7 @@
 
 .section-subtitle {
   margin-top: 20px;
-  color: $color-section-subtitle;
+  color: #5c5c5c;
   line-height: 50px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -122,18 +146,18 @@
 
 .section-item a {
   text-decoration: none;
-  color: $color-background-primary;
+  color: #5C3ED1;
   transition: color 0.5s;
 }
 
 .section-item a:hover {
-  color: $color-text-primary;
+  color: #D15C3E;
 }
 
 footer {
   padding: 20px;
-  background-color: $color-background-primary;
-  color: $color-text-secondary;
+  background-color: #5C3ED1;
+  color: #FFFFFF;
 }
 
 .footer-container {
@@ -141,3 +165,5 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+
+/*# sourceMappingURL=style.css.map */
